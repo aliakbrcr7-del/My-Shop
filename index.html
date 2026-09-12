@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AT7 | فروشگاه اینترنتی</title>
+    <meta
+        name="description"
+        content="AT7؛ فروشگاه آنلاین محصولات دیجیتال، لوازم جانبی، گیمینگ و تکنولوژی."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     TOP STRIP
+===================================================== -->
+
+<div class="top-strip">
+    <div class="container top-strip__inner">
+
+        <span>ارسال سریع به سراسر کشور</span>
+
+        <div class="top-strip__links">
+            <a href="#deals">پیشنهادهای ویژه</a>
+            <a href="#brands">برندها</a>
+            <a href="#footer">پشتیبانی</a>
+        </div>
+
+    </div>
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <div class="container header-main">
+
+        <button
+            class="header-action mobile-menu-btn"
+            data-action="mobile-menu"
+            aria-label="باز کردن منو"
+        >
+            <span class="header-action__icon">☰</span>
+        </button>
+
+        <a href="#" class="logo" aria-label="AT7">
+            <span class="logo__mark">A7</span>
+            <span class="logo__text">AT7</span>
+        </a>
+
+        <div class="search-box">
+            <span class="search-icon">⌕</span>
+            <input
+                id="headerSearch"
+                type="search"
+                placeholder="جستجوی محصول، برند یا دسته‌بندی..."
+                autocomplete="off"
+            >
+        </div>
+
+        <div class="header-actions">
+
+            <button
+                class="header-action"
+                data-action="search"
+                aria-label="جستجو"
+            >
+                <span class="header-action__icon">⌕</span>
+                <span class="header-action__text">جستجو</span>
+            </button>
+
+            <button
+                class="header-action"
+                data-action="wishlist"
+                aria-label="علاقه‌مندی‌ها"
+            >
+                <span class="header-action__icon">♡</span>
+            </button>
+
+            <button
+                class="header-action"
+                data-action="cart"
+                aria-label="سبد خرید"
+            >
+                <span class="header-action__icon">🛒</span>
+                <span id="cartCount" class="badge">0</span>
+            </button>
+
+            <button
+                class="header-action"
+                data-action="account"
+                aria-label="حساب کاربری"
+            >
+                <span class="header-action__icon">♙</span>
+                <span class="header-action__text">ورود</span>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <nav class="main-nav">
+
+        <div class="container main-nav__inner">
+
+            <div class="nav-item nav-item--categories">
+
+                <span>☰</span>
+                <span>دسته‌بندی کالاها</span>
+
+                <div class="category-menu">
+
+                    <div class="container category-menu__inner">
+
+                        <div class="menu-column">
+                            <h4>موبایل و تبلت</h4>
+                            <a href="#" data-category="mobile">گوشی موبایل</a>
+                            <a href="#" data-category="mobile">تبلت</a>
+                            <a href="#" data-category="mobile">گوشی اقتصادی</a>
+                            <a href="#" data-category="mobile">لوازم جانبی موبایل</a>
+                        </div>
+
+                        <div class="menu-column">
+                            <h4>لپ‌تاپ و کامپیوتر</h4>
+                            <a href="#" data-category="laptop">لپ‌تاپ</a>
+                            <a href="#" data-category="laptop">مانیتور</a>
+                            <a href="#" data-category="computer">قطعات کامپیوتر</a>
+                            <a href="#" data-category="accessories">لوازم جانبی</a>
+                        </div>
+
+                        <div class="menu-column">
+                            <h4>صوتی و تصویری</h4>
+                            <a href="#" data-category="audio">هدفون</a>
+                            <a href="#" data-category="audio">اسپیکر</a>
+                            <a href="#" data-category="tv">تلویزیون</a>
+                            <a href="#" data-category="audio">میکروفون</a>
+                        </div>
+
+                        <div class="menu-column">
+                            <h4>گیمینگ</h4>
+                            <a href="#" data-category="gaming">کنسول</a>
+                            <a href="#" data-category="gaming">دسته بازی</a>
+                            <a href="#" data-category="gaming">کیبورد گیمینگ</a>
+                            <a href="#" data-category="gaming">ماوس گیمینگ</a>
+                        </div>
+
+                        <div class="menu-column">
+                            <h4>پوشیدنی و هوشمند</h4>
+                            <a href="#" data-category="wearable">ساعت هوشمند</a>
+                            <a href="#" data-category="wearable">مچ‌بند</a>
+                            <a href="#" data-category="wearable">ردیاب</a>
+                            <a href="#" data-category="accessories">شارژر و کابل</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#deals" class="nav-item">🔥 پیشنهاد شگفت‌انگیز</a>
+            <a href="#products" class="nav-item">محصولات</a>
+            <a href="#brands" class="nav-item">برندها</a>
+            <a href="#newProducts" class="nav-item">جدیدترین‌ها</a>
+            <a href="#footer" class="nav-item">خدمات مشتریان</a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main>
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <article class="hero-main">
+
+                <div class="hero-main__content">
+
+                    <div class="hero-kicker">
+                        نسل جدید خرید آنلاین
+                    </div>
+
+                    <h1 class="hero-title">
+                        تکنولوژی‌ای که
+                        <span>می‌خوای</span>
+                        اینجاست.
+                    </h1>
+
+                    <p class="hero-description">
+                        از موبایل و لپ‌تاپ تا گیمینگ، صوتی و لوازم جانبی؛
+                        محصولات موردنظرت رو با قیمت مناسب و ارسال سریع پیدا کن.
+                    </p>
+
+                    <a href="#products" class="hero-button">
+                        مشاهده محصولات
+                        <span>←</span>
+                    </a>
+
+                </div>
+
+                <img
+                    class="hero-product"
+                    src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=900&q=85"
+                    alt="محصول دیجیتال"
+                >
+
+            </article>
+
+
+            <div class="hero-side">
+
+                <article class="hero-card hero-card--orange">
+                    <h3>
+                        تا ۳۰٪ تخفیف
+                        روی لوازم جانبی
+                    </h3>
+
+                    <p>فقط برای مدت محدود</p>
+
+                    <div class="hero-card__emoji">🎧</div>
+                </article>
+
+
+                <article class="hero-card hero-card--green">
+                    <h3>
+                        خرید هوشمند،
+                        انتخاب راحت
+                    </h3>
+
+                    <p>هزاران محصول برای مقایسه</p>
+
+                    <div class="hero-card__emoji">⌚</div>
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CATEGORIES -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="section-head">
+                <div>
+                    <h2 class="section-title">دسته‌بندی‌های محبوب</h2>
+                    <p class="section-subtitle">
+                        سریع‌تر به چیزی که می‌خوای برس
+                    </p>
+                </div>
+            </div>
+
+            <div id="categoryGrid" class="category-grid"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DEALS -->
+
+    <section id="deals" class="section">
+
+        <div class="container">
+
+            <div class="deals">
+
+                <div class="deals-head">
+
+                    <div>
+                        <h2 class="section-title">پیشنهاد شگفت‌انگیز</h2>
+                        <p class="section-subtitle">
+                            قیمت‌ها قبل از تمام شدن موجودی
+                        </p>
+                    </div>
+
+                    <div class="deal-timer">
+                        <div>
+                            <div id="dealHours" class="timer-box">12</div>
+                            <div class="timer-label">ساعت</div>
+                        </div>
+
+                        <strong>:</strong>
+
+                        <div>
+                            <div id="dealMinutes" class="timer-box">45</div>
+                            <div class="timer-label">دقیقه</div>
+                        </div>
+
+                        <strong>:</strong>
+
+                        <div>
+                            <div id="dealSeconds" class="timer-box">09</div>
+                            <div class="timer-label">ثانیه</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="dealGrid" class="product-grid"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ALL PRODUCTS -->
+
+    <section id="products" class="section">
+
+        <div class="container">
+
+            <div class="section-head">
+
+                <div>
+                    <h2 class="section-title">محصولات</h2>
+                    <p class="section-subtitle">
+                        انتخاب کن، مقایسه کن، بخر
+                    </p>
+                </div>
+
+                <span id="productResultCount" class="section-subtitle"></span>
+
+            </div>
+
+
+            <div class="products-toolbar">
+
+                <div id="filters" class="filters"></div>
+
+                <select id="sortSelect" class="sort-select">
+                    <option value="newest">جدیدترین</option>
+                    <option value="price-low">ارزان‌ترین</option>
+                    <option value="price-high">گران‌ترین</option>
+                    <option value="rating">محبوب‌ترین</option>
+                </select>
+
+            </div>
+
+
+            <div id="productGrid" class="product-grid"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDITORIAL -->
+
+    <section id="newProducts" class="section">
+
+        <div class="container">
+
+            <div class="editorial-grid">
+
+                <article class="editorial-card editorial-card--dark">
+
+                    <h3>
+                        میز کارت رو
+                        حرفه‌ای‌تر کن.
+                    </h3>
+
+                    <p>
+                        مانیتور، کیبورد، ماوس و تجهیزات موردنیاز
+                        برای یک ست کامل.
+                    </p>
+
+                    <img
+                        class="editorial-card__visual"
+                        src="https://images.unsplash.com/photo-1593640495253-23196b27a87f?auto=format&fit=crop&w=700&q=85"
+                        alt="ست کامپیوتر"
+                    >
+
+                </article>
+
+
+                <article class="editorial-card editorial-card--cream">
+
+                    <h3>
+                        صدایی که
+                        فرقش رو حس می‌کنی.
+                    </h3>
+
+                    <p>
+                        هدفون و اسپیکرهای جدید برای موسیقی،
+                        بازی و استفاده روزمره.
+                    </p>
+
+                    <img
+                        class="editorial-card__visual"
+                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85"
+                        alt="هدفون"
+                    >
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- BRANDS -->
+
+    <section id="brands" class="section">
+
+        <div class="container">
+
+            <div class="section-head">
+                <div>
+                    <h2 class="section-title">برندهای محبوب</h2>
+                    <p class="section-subtitle">
+                        برند موردعلاقه‌ات رو پیدا کن
+                    </p>
+                </div>
+            </div>
+
+            <div id="brandGrid" class="brand-grid"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="features">
+
+                <div class="feature">
+                    <span class="feature__icon">🚚</span>
+                    <div>
+                        <h4>ارسال سریع</h4>
+                        <p>تحویل سریع سفارش‌ها</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <span class="feature__icon">✓</span>
+                    <div>
+                        <h4>ضمانت اصالت</h4>
+                        <p>خرید مطمئن محصولات</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <span class="feature__icon">↩</span>
+                    <div>
+                        <h4>۷ روز ضمانت بازگشت</h4>
+                        <p>خرید با خیال راحت</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <span class="feature__icon">☎</span>
+                    <div>
+                        <h4>پشتیبانی</h4>
+                        <p>همیشه کنار شما هستیم</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer id="footer" class="footer">
+
+    <div class="container footer-top">
+
+        <div class="footer-brand">
+            <h2>AT7</h2>
+
+            <p>
+                فروشگاه آنلاین محصولات دیجیتال و تکنولوژی.
+                انتخاب راحت‌تر، خرید مطمئن‌تر.
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h4>خرید</h4>
+            <a href="#products">موبایل</a>
+            <a href="#products">لپ‌تاپ</a>
+            <a href="#products">هدفون</a>
+            <a href="#products">گیمینگ</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>خدمات مشتریان</h4>
+            <a href="#">پرسش‌های متداول</a>
+            <a href="#">پیگیری سفارش</a>
+            <a href="#">شرایط بازگشت</a>
+            <a href="#">تماس با ما</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>AT7</h4>
+            <a href="#">درباره ما</a>
+            <a href="#">همکاری با ما</a>
+            <a href="#">فروشنده شوید</a>
+            <a href="#">قوانین</a>
+        </div>
+
+        <div class="footer-column">
+            <h4>ارتباط با ما</h4>
+            <a href="#">پشتیبانی آنلاین</a>
+            <a href="#">اینستاگرام</a>
+            <a href="#">تلگرام</a>
+            <a href="#">ایمیل</a>
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+        <span>© 2026 AT7 — تمامی حقوق محفوظ است.</span>
+        <span>ساخته شده برای یک خرید بهتر.</span>
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     OVERLAY
+===================================================== -->
+
+<div id="overlay" class="overlay"></div>
+
+
+<!-- =====================================================
+     CART DRAWER
+===================================================== -->
+
+<aside id="cartDrawer" class="drawer">
+
+    <div class="drawer-head">
+        <h3>سبد خرید</h3>
+
+        <button
+            class="close-btn"
+            data-action="close-cart"
+            aria-label="بستن"
+        >
+            ×
+        </button>
+    </div>
+
+    <div id="cartItems" class="drawer-body"></div>
+
+    <div class="drawer-footer">
+
+        <div class="total-row">
+            <span>مجموع</span>
+            <span id="cartTotal" class="total-price">۰ تومان</span>
+        </div>
+
+        <button id="checkoutBtn" class="checkout-btn">
+            ادامه فرایند خرید
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- =====================================================
+     SEARCH PANEL
+===================================================== -->
+
+<section id="searchPanel" class="search-panel">
+
+    <div class="container">
+
+        <div class="search-panel__head">
+
+            <input
+                id="searchInput"
+                class="search-panel__input"
+                type="search"
+                placeholder="نام محصول یا برند را جستجو کنید..."
+            >
+
+            <button
+                class="close-btn"
+                data-action="close-search"
+            >
+                ×
+            </button>
+
+        </div>
+
+        <div class="search-results">
+
+            <div class="section-head">
+                <div>
+                    <h2 class="section-title">نتایج جستجو</h2>
+                    <p id="searchResultText" class="section-subtitle">
+                        عبارت موردنظر را جستجو کنید
+                    </p>
+                </div>
+            </div>
+
+            <div id="searchResults" class="search-results__grid"></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     QUICK VIEW MODAL
+===================================================== -->
+
+<div id="productModal" class="modal">
+
+    <div class="modal-box">
+
+        <button
+            class="close-btn modal-close"
+            data-action="close-modal"
+        >
+            ×
+        </button>
+
+        <div id="quickViewContent"></div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     MOBILE MENU
+===================================================== -->
+
+<aside id="mobileMenu" class="drawer">
+
+    <div class="drawer-head">
+
+        <h3>دسته‌بندی‌ها</h3>
+
+        <button
+            class="close-btn"
+            data-action="close-mobile"
+        >
+            ×
+        </button>
+
+    </div>
+
+    <div class="drawer-body">
+
+        <div class="menu-column">
+            <h4>موبایل و تبلت</h4>
+            <a href="#products">گوشی موبایل</a>
+            <a href="#products">تبلت</a>
+            <a href="#products">لوازم جانبی</a>
+        </div>
+
+        <br>
+
+        <div class="menu-column">
+            <h4>لپ‌تاپ و کامپیوتر</h4>
+            <a href="#products">لپ‌تاپ</a>
+            <a href="#products">مانیتور</a>
+            <a href="#products">قطعات</a>
+        </div>
+
+        <br>
+
+        <div class="menu-column">
+            <h4>صوتی</h4>
+            <a href="#products">هدفون</a>
+            <a href="#products">اسپیکر</a>
+        </div>
+
+        <br>
+
+        <div class="menu-column">
+            <h4>گیمینگ</h4>
+            <a href="#products">کنسول</a>
+            <a href="#products">لوازم گیمینگ</a>
+        </div>
+
+    </div>
+
+</aside>
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div id="toastRegion" class="toast-region"></div>
+
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
